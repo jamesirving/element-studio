@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# element studio
+
+A website to showcase the projects and products created by me, James Irving. Also a website to test and explore some of the following web tools:
+
+- 🚀 [Next.js](https://nextjs.org) — JavaScript Framework used to build the web application.
+- 🚀 [React](https://reactjs.org) — JavaScript library for user interfaces
+- 📖 [Storybook](https://storybook.js.org) — UI component environment powered by Vite
+- 🍰 [Vanilla Extract](https://vanilla-extract.style/) - Zero-runtime stylesheets in TypeScript
+- [TypeScript](https://www.typescriptlang.org/) for static type checking
+- [ESLint](https://eslint.org/) for code linting
+- [Prettier](https://prettier.io) for code formatting
 
 ## Getting Started
 
