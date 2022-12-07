@@ -1,27 +1,19 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import React from 'react';
-
-const withList = (ListComponent) => {
-  return null;
-}
-
-class Link extends React.Component {
-  render() {
-    <a href={this.props.link.href}>{this.props.link.text}</a>
-  }
-}
-
-const linkList = withList(Link);
 
 export default function Home() {
-  const list = [{href: "www.google.com", text: "google"}, {href: "https://www.wikipedia.org/", text: "wikipedia"}, {href: "https://www.abc.net.au/news/", text: "abc news"}]
-
-
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Element Studios</title>
+        <meta name="description" content="Element Studios" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <main className={styles.main}>
-        <linkList list={list} />
+        <h1 className={styles.title}>
+          Element Studios coming soon
+        </h1>
       </main>
     </div>
   )
